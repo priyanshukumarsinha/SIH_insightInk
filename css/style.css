@@ -5,11 +5,10 @@ body {
 }
 body nav {
   height: 127px;
-  flex-shrink: 0;
   background: #25282C;
 }
 body nav div.logo {
-  padding: 30px 100px;
+  padding: 30px 0px;
   color: #E3E1E1;
   font-family: "Poppins";
   font-size: 40px;
@@ -75,17 +74,17 @@ div.container {
   }
 }
 @media (max-width: 700px) {
-  nav div.logo {
-    padding: 0px 30px;
-  }
   div.project_details {
-    width: 26.75rem;
+    width: 50%;
   }
   div.container {
     padding: 0 30px;
   }
   section.intro {
     flex-direction: column-reverse;
-    width: 80%;
+    width: 50%;
+  }
+  body section.intro div.project_details div.desc {
+    width: 50%;
   }
 }/*# sourceMappingURL=style.css.map */
