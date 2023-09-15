@@ -71,3 +71,24 @@ body{
 div.container{
     padding: 0 100px;
 }
+
+@media (max-width: 1100px){
+    section.intro{
+        flex-direction: column-reverse;
+        width: 80%
+    }
+  }
+  
+@media (max-width: 700px){
+    nav div.logo{
+        padding: 0px 30px;}
+    div.project_details{
+        width: 26.75rem;}
+    div.container{
+        padding: 0 30px;
+    }
+    section.intro{
+        flex-direction: column-reverse;
+        width: 80%
+    }
+  }
