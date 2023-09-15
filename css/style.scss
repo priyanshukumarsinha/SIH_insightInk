@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #F6FBFF;
+    
+    nav{
+        height: 127px;
+        flex-shrink: 0;
+        background: #25282C;
+        div.logo{
+            padding: 30px 100px;
+            color: #E3E1E1;
+            font-family: "Poppins";
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            span.highlight_text{
+                color: #6572ED;
+                font-family: Poppins;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+            }
+        }
+    }
+
+    section.intro{
+        display: flex;
+        width: 27 rem;
+        div.member_list{
+            div.member{
+                margin-top: 1.73rem;
+                div.dp{
+                    width: 6.25rem;
+                    height: 6.25rem;
+                    flex-shrink: 0;
+                    background: #F3F3F3;
+                    margin-right: 1.5rem;
+                }
+                display: flex;
+            }
+        }
+        div.project_details{
+            width: 36.75rem;
+            margin: 0rem auto;
+            div.name{
+                color: #25282C;
+                font-family: Poppins;
+                font-size: 8rem;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                span.highlight_text{
+                    color: #6572ED;
+                    font-family: Poppins;
+                    font-size: 8rem;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+            }
+            div.desc{
+                margin-top:1.50rem;
+            }
+        }
+    }
+}
+
+div.container{
+    padding: 0 100px;
+}
